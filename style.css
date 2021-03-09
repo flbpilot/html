@@ -1,0 +1,166 @@
+/* ****************************************************************** */
+/* Tag settings: */
+/* ****************************************************************** */
+
+body {
+  padding: 0;
+  margin: 0;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #333;
+  background: #ffffff;
+}
+
+header {
+  background-color: rgb(233, 233, 233);
+}
+
+
+h2 {
+  margin-left: 110px;
+  color: #0e0d0d;
+  background-color: rgb(233, 233, 233);
+  padding: 15px;
+  font-size: 28px;
+}
+
+h3 {
+  margin: 0;
+  color: #0e0d0d;
+  background-color: rgb(233, 233, 233);
+  padding: 15px;
+  font-size: 28px;
+}
+
+h4 {
+  color: #0e0d0d;
+  background-color: rgb(233, 233, 233);
+  padding: 15px;
+  font-size:18px;
+}
+
+h5 {
+  color: #0e0d0d;
+  background-color: rgb(233, 233, 233);
+  padding: 15px;
+  font-size:15px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  color: #0e0d0d;
+  background-color: rgb(233, 233, 233);
+  padding-top: 10px;
+  padding-bottom: 5px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+p {
+  margin-bottom: 5px;
+  line-height: 150%;
+  float: left;
+}
+
+#pbox {
+  margin: 20px;
+  font-size: 16px;
+}
+
+#img_viz {
+  text-align: center;
+}
+/* ****************************************************************** */
+/* Navigation bar settings: */
+/* ****************************************************************** */
+
+.navbar-brand { 
+  padding: 0; 
+  margin: 0;
+}
+
+.navbar-light { 
+  padding: 0; 
+  margin: 0;
+  color:   #1b1b1b;
+
+}
+
+.dropdown-item {
+  color:   #1b1b1b;
+}
+
+.dropdown-menu,
+.navbar-expand-lg {
+  background-color: rgb(233, 233, 233);
+}
+
+#navbarDropdown,
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-toggler-icon .nav-link{
+  color:  #1b1b1b;
+}
+
+
+.navbar-toggler,
+.navbar-toggler-icon {
+    color: #efeee7;
+    background-color: rgb(233, 233, 233);
+}
+.nav-item {
+  vertical-align: right;
+}
+.nav-link {
+  vertical-align: right;
+}
+#lat_image {
+    float: left;
+}
+
+/* ****************************************************************** */
+/* Box settings: */
+/* ****************************************************************** */
+
+.box3 {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  color: #efeee7;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 55;
+  background-color: green;
+}
+
+/* ****************************************************************** */
+/* Media Query settings: */
+/* ****************************************************************** */
+
+@media (max-width: 500px) {
+
+.navbar, 
+.navbar-expand-lg,
+.dropdown-menu,
+.bg_medium,
+.navbar-light {
+  background-color: seagreen;
+}
+
+.navbar-toggler,
+.navbar-toggler-icon {
+    color: #efeee7;
+    background-color: lightgreen;
+}
+
+h3,
+h2 {
+  background-color: lightgreen;
+  color: black
+}

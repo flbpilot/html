@@ -1,0 +1,118 @@
+<html lang="en">
+<head>
+    <title>Latitude</title>
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML & CSS Homework (Weather Latitude)</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+      </head>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-medium">
+        <a class="navbar-brand" href="index.html"><h2><strong>Latitude</strong></h2></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown active ml-auto">
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="temp.html">Max Temperature</a>
+                <a class="dropdown-item" href="humid.html">Humidity</a>
+                <a class="dropdown-item" href="cloud.html">Cloudiness</a>
+                <a class="dropdown-item" href="wind.html">Wind Speed</a>
+                <a class="dropdown-item" href="comapre.html">Comparison</a>
+                <a class="dropdown-item" href="data.html">Data Table</a>
+            </div>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="temp.html">Max Temperature</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="humid.html">Humidity</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="cloud.html">Cloudiness</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="wind.html">Wind Speed</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="comapre.html">Comparison</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="data.html">Data Table</a>
+            </li>
+        </ul>
+        </div>
+      </nav>
+
+
+
+
+      <!-- Start of the content -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 col-sm-12">
+              <section id="figure">
+                <br>
+                <h3>Summary: Latitude vs X</h3>
+                <br>
+                <img width=70% id="lat-image" src="Images/cmaxtemp.png" width=60% alt="Latitude vs X">
+
+                <p id="pbox">Using the Data from Homework -6 API where we have compared the effect of weather in cities with respect
+                    to its proximity to the equator, we are using that data to build this site. 
+                <br>
+                <p id="pbox">
+                Jupyter notebook was used to extract the data from the provided CSV, cleaned and plotted using Matplotlib
+            we will also be converting the provided CSV to convert it into HTML format for a raw data page </p>
+          </section>
+          </div>
+    
+          <div class="col-lg-5 col-sm-12">
+            <br>
+            <h3>Visualizations</h3>
+            <br>
+                  
+        <div class="row">
+
+          <div class="col-lg-6 col-sm-3 col-xs-3">
+              <a href="cloud.html">
+                <img width=100% src="Images/cclouds.png" alt="...">
+              </a>
+          </div>
+
+          <div class="col-lg-6 col-sm-3 col-xs-3">
+            <a href="humid.html">
+              <img width=100% src="Images/chumid.png" alt="...">
+            </a>
+          </div>
+
+          <div class="col-lg-6 col-sm-3 col-xs-3">
+            <a href="temp.html">
+              <img width=100% src="Images/cmaxtemp.png" alt="...">
+            </a>
+          </div>
+
+          <div class="col-lg-6 col-sm-3 col-xs-3">
+            <a href="wind.html">
+              <img width=100% src="Images/cwind.png" alt="...">
+            </a>
+          </div>
+
+          </div>
+        </div>  
+      </div>
+    </div>
+</body>
+</html>
+
